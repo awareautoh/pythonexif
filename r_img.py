@@ -9,4 +9,5 @@ exif = {
     for k, v in img._getexif().items()
     if k in TAGS
 }
+
 print (exif)
